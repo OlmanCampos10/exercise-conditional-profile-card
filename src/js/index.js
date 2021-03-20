@@ -28,27 +28,27 @@ function render(variables = {}) {
   let cover = `<div class="cover"><img src="${variables.background}" /></div>`;
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
 
-  let name = "name";
+  let name = "Nombre";
   if (variables.name !== null) {
     name = variables.name;
   }
 
-  let lastname = "lastname";
+  let lastname = "Apellidos";
   if (variables.lastname !== null) {
     lastname = variables.lastname;
   }
 
-  let role = "role";
+  let role = "Rol";
   if (variables.role !== null) {
     role = variables.role;
   }
 
-  let country = "country";
+  let country = "Pais";
   if (variables.country !== null) {
     country = variables.country;
   }
 
-  let city = "city";
+  let city = "Ciudad";
   if (variables.city !== null) {
     city = variables.city;
   }
